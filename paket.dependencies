@@ -1,0 +1,5 @@
+# paket.dependencies
+
+http https://www.python.org/ftp/python/3.6.1/python-3.6.1-embed-win32.zip
+
+source https://nuget.org/api/v2

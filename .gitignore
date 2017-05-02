@@ -1,5 +1,3 @@
-./paket/paket.exe
-
 #Pinning Cake version
 tools/*
 !tools/packages.config
