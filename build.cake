@@ -24,9 +24,18 @@ Task("Paket-Pack").Does(() =>
     PaketPack("./NuGet");
 });
 
+Task("Say-Hello-World")
+.Does(() =>
+{
+    StartProcess(@"./paket-files/www.python.org/python.exe", new ProcessSettings{
+        Arguments = "./scripts/python/helloworld/__init__.py"
+    });
+});
+
 
 Task("Default")
 .IsDependentOn("Sync-Paket")
-.IsDependentOn("Paket-Restore");
+.IsDependentOn("Paket-Restore")
+.IsDependentOn("Say-Hello-World");
 
 RunTarget("Default")
