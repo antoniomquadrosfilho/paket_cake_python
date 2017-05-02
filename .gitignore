@@ -1,3 +1,5 @@
+paket-files
+
 #Pinning Cake version
 tools/*
 !tools/packages.config
