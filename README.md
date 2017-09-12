@@ -1,3 +1,3 @@
 # paket_cake_python
 
-run python code into windows environment without python
+Run python code into windows environment without python with paket and cake for learning both...
